@@ -27,7 +27,7 @@ if __name__ == "__main__":
   username = args.username.casefold().strip('@')
 
 
-  tweet = LastActive.mostRecentMention(args.username.casefold())
+  tweet = LastActive.mostRecentMention(username.casefold())
 
   if tweet is not None:
     print(tweet)
