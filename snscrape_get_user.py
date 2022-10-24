@@ -28,6 +28,6 @@ def get_userinfo(screen_name):
 
 
 if __name__ == '__main__':
-  username = str(sys.argv[1])
+  username = str(sys.argv[1]).strip('@')
   get_userinfo(username)
 
