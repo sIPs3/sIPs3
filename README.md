@@ -1,2 +1,1 @@
-# sIPs3
-# sIPs3
+# Miscellaneous scripts
