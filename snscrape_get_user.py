@@ -1,5 +1,3 @@
-#@title Step 2c: Install script #3
-%%writefile get_user.py
 import os
 import sys
 
